@@ -186,83 +186,103 @@ const allQuestions = [
   },
   {
     question: "The epidermis is the innermost layer of the skin.",
-    correctAnswer: false
+    options: ["True", "False"],
+    correctIndex: 1
   },
   {
     question: "Full-thickness burns may involve fat, muscle, and bone.",
-    correctAnswer: true
+    options: ["True", "False"],
+    correctIndex: 0
   },
   {
     question: "Superficial burns usually cause scarring and require surgical treatment.",
-    correctAnswer: false
+    options: ["True", "False"],
+    correctIndex: 1
   },
   {
     question: "The 'rule of nines' helps estimate the total body surface area affected by burns.",
-    correctAnswer: true
+    options: ["True", "False"],
+    correctIndex: 0
   },
   {
     question: "Facial burns may indicate possible inhalation injury.",
-    correctAnswer: true
+    options: ["True", "False"],
+    correctIndex: 0
   },
   {
     question: "Partial-thickness burns affect both the epidermis and dermis.",
-    correctAnswer: true
+    options: ["True", "False"],
+    correctIndex: 0
   },
   {
     question: "Burns on the hands and feet do not affect mobility or function.",
-    correctAnswer: false
+    options: ["True", "False"],
+    correctIndex: 1
   },
   {
     question: "Carbon monoxide binds to hemoglobin more readily than oxygen.",
-    correctAnswer: true
+    options: ["True", "False"],
+    correctIndex: 0
   },
   {
     question: "Burns are classified only by the cause of injury.",
-    correctAnswer: false
+    options: ["True", "False"],
+    correctIndex: 1
   },
   {
     question: "The emergent phase of burn care includes securing the airway and initiating fluid resuscitation.",
-    correctAnswer: true
+    options: ["True", "False"],
+    correctIndex: 0
   },
   {
     question: "Electrical burns always show severe external damage.",
-    correctAnswer: false
+    options: ["True", "False"],
+    correctIndex: 1
   },
   {
     question: "Pain is usually absent in full-thickness burns.",
-    correctAnswer: true
+    options: ["True", "False"],
+    correctIndex: 0
   },
   {
     question: "Curling’s ulcer is a complication caused by stress in burn patients.",
-    correctAnswer: true
+    options: ["True", "False"],
+    correctIndex: 0
   },
   {
     question: "Escharotomy is performed to relieve pressure and restore circulation in burned limbs.",
-    correctAnswer: true
+    options: ["True", "False"],
+    correctIndex: 0
   },
   {
     question: "Hyperkalemia can occur in the early phase of severe burns.",
-    correctAnswer: true
+    options: ["True", "False"],
+    correctIndex: 0
   },
   {
     question: "Burn patients should be kept cold to prevent infection.",
-    correctAnswer: false
+    options: ["True", "False"],
+    correctIndex: 1
   },
   {
     question: "Skin grafts are always required for superficial burns.",
-    correctAnswer: false
+    options: ["True", "False"],
+    correctIndex: 1
   },
   {
     question: "High protein and calorie intake are important for burn wound healing.",
-    correctAnswer: true
+    options: ["True", "False"],
+    correctIndex: 0
   },
   {
     question: "Burn injuries can lead to increased risk of infection due to loss of skin barrier.",
-    correctAnswer: true
+    options: ["True", "False"],
+    correctIndex: 0
   },
   {
     question: "Inhalation injury should be suspected if the patient has singed nasal hair and carbonaceous sputum.",
-    correctAnswer: true
+    options: ["True", "False"],
+    correctIndex: 0
   }
 ];
 
