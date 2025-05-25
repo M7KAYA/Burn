@@ -183,7 +183,7 @@ const allQuestions = [
     question: "What is the primary cause of hemoconcentration in burn patients?",
     options: ["a) Loss of plasma into extravascular space", "b) Excess fluid intake", "c) Increased urine output", "d) Hyperventilation"],
     correctIndex: 0
-  }
+  },
   {
     question: "The epidermis is the innermost layer of the skin.",
     correctAnswer: false
