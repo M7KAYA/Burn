@@ -184,6 +184,86 @@ const allQuestions = [
     options: ["a) Loss of plasma into extravascular space", "b) Excess fluid intake", "c) Increased urine output", "d) Hyperventilation"],
     correctIndex: 0
   }
+  {
+    question: "The epidermis is the innermost layer of the skin.",
+    correctAnswer: false
+  },
+  {
+    question: "Full-thickness burns may involve fat, muscle, and bone.",
+    correctAnswer: true
+  },
+  {
+    question: "Superficial burns usually cause scarring and require surgical treatment.",
+    correctAnswer: false
+  },
+  {
+    question: "The 'rule of nines' helps estimate the total body surface area affected by burns.",
+    correctAnswer: true
+  },
+  {
+    question: "Facial burns may indicate possible inhalation injury.",
+    correctAnswer: true
+  },
+  {
+    question: "Partial-thickness burns affect both the epidermis and dermis.",
+    correctAnswer: true
+  },
+  {
+    question: "Burns on the hands and feet do not affect mobility or function.",
+    correctAnswer: false
+  },
+  {
+    question: "Carbon monoxide binds to hemoglobin more readily than oxygen.",
+    correctAnswer: true
+  },
+  {
+    question: "Burns are classified only by the cause of injury.",
+    correctAnswer: false
+  },
+  {
+    question: "The emergent phase of burn care includes securing the airway and initiating fluid resuscitation.",
+    correctAnswer: true
+  },
+  {
+    question: "Electrical burns always show severe external damage.",
+    correctAnswer: false
+  },
+  {
+    question: "Pain is usually absent in full-thickness burns.",
+    correctAnswer: true
+  },
+  {
+    question: "Curling’s ulcer is a complication caused by stress in burn patients.",
+    correctAnswer: true
+  },
+  {
+    question: "Escharotomy is performed to relieve pressure and restore circulation in burned limbs.",
+    correctAnswer: true
+  },
+  {
+    question: "Hyperkalemia can occur in the early phase of severe burns.",
+    correctAnswer: true
+  },
+  {
+    question: "Burn patients should be kept cold to prevent infection.",
+    correctAnswer: false
+  },
+  {
+    question: "Skin grafts are always required for superficial burns.",
+    correctAnswer: false
+  },
+  {
+    question: "High protein and calorie intake are important for burn wound healing.",
+    correctAnswer: true
+  },
+  {
+    question: "Burn injuries can lead to increased risk of infection due to loss of skin barrier.",
+    correctAnswer: true
+  },
+  {
+    question: "Inhalation injury should be suspected if the patient has singed nasal hair and carbonaceous sputum.",
+    correctAnswer: true
+  }
 ];
 
 
