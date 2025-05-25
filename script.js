@@ -1,305 +1,191 @@
 const allQuestions = [
   {
-    question: "In get resuscitation adjuncts or helpers, O refer to Oxygenation and Ventilation such as:",
-    options: ["A) ABG", "B) Blood typing", "C) SpO2", "D) Lactic acid"],
+    question: "What is the outermost layer of the skin called?",
+    options: ["a) Dermis", "b) Subcutaneous tissue", "c) Epidermis", "d) Hypodermis"],
     correctIndex: 2
   },
   {
-    question: "Is acutely ill, injured, harmed or helpless and who requires emergency care.",
-    options: ["A) Emergency patient", "B) Critically ill patient", "C) Chronic Patient", "D) Non urgent Patient"],
+    question: "Which layer of the skin provides strength and structure?",
+    options: ["a) Epidermis", "b) Dermis", "c) Subcutaneous tissue", "d) Hypodermis"],
+    correctIndex: 1
+  },
+  {
+    question: "What type of burn affects only the epidermal layer?",
+    options: ["a) Partial-thickness burn", "b) Full-thickness burn", "c) Superficial burn", "d) Deep partial-thickness burn"],
+    correctIndex: 2
+  },
+  {
+    question: "Which of the following is NOT a function of the skin?",
+    options: ["a) Vitamin production", "b) Immune response", "c) Bone support", "d) Temperature regulation"],
+    correctIndex: 2
+  },
+  {
+    question: "What is the primary cause of death at the scene of a fire?",
+    options: ["a) Hypoxia and carbon monoxide poisoning", "b) Severe burns", "c) Electric shock", "d) Chemical exposure"],
     correctIndex: 0
   },
   {
-    question: "Is patient who is at high risk for actual or potential life-threatening health problems.",
-    options: ["A) Emergency patient", "B) Critically ill patient", "C) Chronic Patient", "D) Non urgent Patient"],
-    correctIndex: 1
+    question: "Which factor does NOT determine the degree of burn injury?",
+    options: ["a) Temperature of the injuring agent", "b) Duration of exposure", "c) Color of the injuring agent", "d) Area of the body exposed"],
+    correctIndex: 2
   },
   {
-    question: "What is triage?",
-    options: ["A) Preparing patients for hospital discharge", "B) Sorting patients in the emergency department based on severity and immediacy", "C) Organizing patients to receive medications", "D) Preparing rooms, spaces, and equipment for admitted patients"],
-    correctIndex: 1
+    question: "What is a characteristic of full-thickness burns?",
+    options: ["a) They heal with minimal intervention.", "b) They affect only the epidermis.", "c) They expose the fat layer.", "d) They are painful and blanch under pressure."],
+    correctIndex: 2
   },
   {
-    question: "Triage is a sorting process that utilizes critical thinking and a standardized set of guidelines.",
-    options: ["True", "False"],
+    question: "According to the 'rule of nines,' what percentage of TBSA is allocated to one arm?",
+    options: ["a) 9%", "b) 18%", "c) 1%", "d) 4.5%"],
     correctIndex: 0
   },
   {
-    question: "Which of the following falls under the category of Resuscitation?",
-    options: ["A) Head injuries", "B) Airway obstruction", "C) Chemical exposure to the eyes", "D) GI bleed with stable vital signs"],
-    correctIndex: 1
-  },
-  {
-    question: "Sever trauma falls under the category of?",
-    options: ["A) Resuscitation", "B) Emergent", "C) Urgent", "D) Less urgent"],
-    correctIndex: 1
-  },
-  {
-    question: "Moderate trauma falls under the category of?",
-    options: ["A) Emergent", "B) Urgent", "C) Less urgent", "D) Non urgent"],
-    correctIndex: 1
-  },
-  {
-    question: "Minor acute trauma falls under the category of?",
-    options: ["A) Emergent", "B) Urgent", "C) Less urgent", "D) Non urgent"],
+    question: "Which burn site is associated with a higher risk of inhalation injury?",
+    options: ["a) Hands", "b) Feet", "c) Face", "d) Legs"],
     correctIndex: 2
   },
   {
-    question: "Minor NOT acute trauma falls under the category of?",
-    options: ["A) Emergent", "B) Urgent", "C) Less urgent", "D) Non urgent"],
-    correctIndex: 3
-  },
-  {
-    question: "Minor acute trauma falls under the category of Non urgent",
-    options: ["True", "False"],
+    question: "What is a common complication of deep partial-thickness burns?",
+    options: ["a) Rapid healing", "b) Scarring and loss of function", "c) No scarring", "d) Increased hair growth"],
     correctIndex: 1
   },
   {
-    question: "Any pain greater than 3 on a scale of 10 falls under the category of Emergent",
-    options: ["True", "False"],
+    question: "Which phase of burn care focuses on wound closure and infection prevention?",
+    options: ["a) Emergent phase", "b) Acute phase", "c) Rehabilitation phase", "d) Resuscitative phase"],
     correctIndex: 1
   },
   {
-    question: "Which of the following is considered Triage Level III?",
-    options: ["A) Alert head injury without vomiting", "B) Minor trauma", "C) Minor systemic symptoms", "D) Mild to moderate asthma"],
-    correctIndex: 3
+    question: "What is the priority during the emergent phase of burn care?",
+    options: ["a) Psychological counseling", "b) Fluid resuscitation", "c) Scar prevention", "d) Occupational therapy"],
+    correctIndex: 1
   },
   {
-    question: "Chronic back pain falls under the category of",
-    options: ["A) Resuscitation", "B) Emergent", "C) Urgent", "D) Less urgent"],
-    correctIndex: 3
-  },
-  {
-    question: "Chronic abdominal pain falls under the category of",
-    options: ["A) Emergent", "B) Urgent", "C) Less urgent", "D) Non urgent"],
-    correctIndex: 3
-  },
-  {
-    question: "Earache falls under the category of",
-    options: ["A) Emergent", "B) Urgent", "C) Less urgent", "D) Non urgent"],
-    correctIndex: 2
-  },
-  {
-    question: "Strock falls under the category of",
-    options: ["A) Emergent", "B) Urgent", "C) Resuscitation", "D) Non urgent"],
+    question: "What is the goal of hypertonic saline solution in burn treatment?",
+    options: ["a) Reduce edema and prevent pulmonary complications", "b) Increase urine output", "c) Replace lost hemoglobin", "d) Speed up wound healing"],
     correctIndex: 0
   },
   {
-    question: "Requires medical and nursing intervention within 30 minutes?",
-    options: ["A) Resuscitation", "B) Urgent", "C) Less urgent", "D) Non urgent"],
+    question: "What is a key nursing intervention for promoting gas exchange in burn patients?",
+    options: ["a) Administering IV opioids", "b) Providing humidified oxygen", "c) Elevating burned extremities", "d) Applying heat shields"],
     correctIndex: 1
   },
   {
-    question: "In Resuscitation triage, any delay can lead to potentially life-or limb-threatening.",
-    options: ["True", "False"],
+    question: "Which complication is indicated by decreased urine output and increased BUN levels?",
+    options: ["a) Acute renal failure", "b) Paralytic ileus", "c) Curling’s ulcer", "d) Compartment syndrome"],
     correctIndex: 0
   },
   {
-    question: "Conditions that are high risk of deterioration, or signs of a time-critical problem fall under?",
-    options: ["A) Resuscitation", "B) Emergent", "C) Less urgent", "D) Non urgent"],
+    question: "What is a sign of compartment syndrome in a burned extremity?",
+    options: ["a) Increased urine output", "b) Loss of peripheral pulses", "c) Hypothermia", "d) Hyperactive bowel sounds"],
     correctIndex: 1
   },
   {
-    question: "A patient with Eclampsia fall under?",
-    options: ["A) Resuscitation", "B) Emergent", "C) Less urgent", "D) Non urgent"],
+    question: "Which medication is used to prevent Curling’s ulcer in burn patients?",
+    options: ["a) Antacids and histamine blockers", "b) IV opioids", "c) Hypertonic saline", "d) Lactated Ringer’s solution"],
     correctIndex: 0
   },
   {
-    question: "An Unconsciousness patient fall under?",
-    options: ["A) Resuscitation", "B) Emergent", "C) Less urgent", "D) Non urgent"],
+    question: "What is the primary focus of the rehabilitation phase in burn care?",
+    options: ["a) Fluid resuscitation", "b) Wound closure", "c) Physical and psychosocial adjustment", "d) Pain management"],
+    correctIndex: 2
+  },
+  {
+    question: "Which of the following is a thermal burn source?",
+    options: ["a) Hydrofluoric acid", "b) Electric current", "c) Hot cooking pan", "d) Nuclear radiation"],
+    correctIndex: 2
+  },
+  {
+    question: "What is the first-degree burn also known as?",
+    options: ["a) Superficial burn", "b) Partial-thickness burn", "c) Full-thickness burn", "d) Deep dermal burn"],
     correctIndex: 0
   },
   {
-    question: "A patient with severe allergic reaction fall under?",
-    options: ["A) Resuscitation", "B) Emergent", "C) Less urgent", "D) Non urgent"],
-    correctIndex: 1
-  },
-  {
-    question: "A patient with minor allergic reaction fall under?",
-    options: ["A) Resuscitation", "B) Emergent", "C) Less urgent", "D) Non urgent"],
+    question: "Which layer of the skin is primarily composed of adipose tissue?",
+    options: ["a) Epidermis", "b) Dermis", "c) Subcutaneous tissue", "d) Stratum corneum"],
     correctIndex: 2
   },
   {
-    question: "Sore throat patient falls under?",
-    options: ["A) Resuscitation", "B) Emergent", "C) Less urgent", "D) Non urgent"],
-    correctIndex: 3
-  },
-  {
-    question: "Primary survey focuses on examine, diagnose, treat non life-threatening injuries",
-    options: ["True", "False"],
+    question: "What is a critical factor in assessing burn severity?",
+    options: ["a) Hair color of the patient", "b) Percentage of TBSA burned", "c) Shoe size", "d) Blood type"],
     correctIndex: 1
   },
   {
-    question: "Stridor plus swelling and/or hives can indicate..",
-    options: ["A) Partially obstructed airway", "B) Complete obstructed airway", "C) Anaphylaxis", "D) Pericardial tamponade"],
+    question: "What is the primary cause of scarring in burns?",
+    options: ["a) Superficial burns", "b) Deep partial-thickness burns", "c) First-degree burns", "d) Sunburns"],
+    correctIndex: 1
+  },
+  {
+    question: "What is the purpose of the nasogastric tube in severe burn patients?",
+    options: ["a) To administer antibiotics", "b) To prevent nausea and aspiration", "c) To measure core temperature", "d) To monitor blood pressure"],
+    correctIndex: 1
+  },
+  {
+    question: "Which of the following is a symptom of inhalation injury?",
+    options: ["a) Increased urine output", "b) Singed nostrils", "c) Hypothermia", "d) Bradycardia"],
+    correctIndex: 1
+  },
+  {
+    question: "What is the primary electrolyte imbalance in the emergent phase of burns?",
+    options: ["a) Sodium excess", "b) Potassium excess", "c) Calcium deficit", "d) Magnesium excess"],
+    correctIndex: 1
+  },
+  {
+    question: "What is the recommended urine output for burn patients during fluid resuscitation?",
+    options: ["a) 10 mL/hour", "b) 30 mL/hour", "c) 50 mL/hour", "d) 100 mL/hour"],
+    correctIndex: 1
+  },
+  {
+    question: "Which of the following is NOT a priority in the emergency department for burn patients?",
+    options: ["a) Airway management", "b) Pain relief", "c) Cosmetic surgery", "d) Circulation support"],
     correctIndex: 2
   },
   {
-    question: "If the patient Can talk normally that indicate an obstructed airway.",
-    options: ["True", "False"],
-    correctIndex: 1
-  },
-  {
-    question: "Check if the patient is able to swallow saliva or is drooling is performed during?",
-    options: ["A) Breathing Assessment", "B) Airway Assessment", "C) Disability Assessment", "D) Circulation Assessment"],
-    correctIndex: 1
-  },
-  {
-    question: "Chest in drawing or retractions and abnormal chest wall movement are signs of increased work of breathing.",
-    options: ["True", "False"],
+    question: "What is the primary purpose of the 'rule of nines'?",
+    options: ["a) To estimate the extent of burns", "b) To diagnose inhalation injury", "c) To measure pain levels", "d) To assess kidney function"],
     correctIndex: 0
   },
   {
-    question: "The absence of breath sounds and dull sounds with percussion on one side can indicate tension pneumothorax.",
-    options: ["True", "False"],
+    question: "Which phase of burn care includes nutritional support?",
+    options: ["a) Emergent phase", "b) Acute phase", "c) Rehabilitation phase", "d) Immediate phase"],
     correctIndex: 1
   },
   {
-    question: "Which of the following is a sign of poor perfusion?",
-    options: ["A) Warm skin", "B) Normal blood pressure", "C) Bradypnea", "D) Absent pulses"],
-    correctIndex: 3
-  },
-  {
-    question: "Internal bleeding is often apparent and observable.",
-    options: ["True", "False"],
+    question: "What is a characteristic of superficial partial-thickness burns?",
+    options: ["a) They expose the fat layer.", "b) They heal with minimal intervention.", "c) They cause extensive scarring."],
     correctIndex: 1
   },
   {
-    question: "Which of the following is involved in the primary survey?",
-    options: ["A) Head-to-toe assessment", "B) Insect posterior surfaces", "C) Get resuscitation adjuncts", "D) Past medical history"],
-    correctIndex: 2
-  },
-  {
-    question: "How many levels of triage are there?",
-    options: ["A) Three", "B) Four", "C) Five", "D) Six"],
-    correctIndex: 2
-  },
-  {
-    question: "What is an example of a Level 1 (Resuscitation) condition?",
-    options: ["A) Earache", "B) Severe asthma", "C) Cardiac arrest", "D) Headache"],
-    correctIndex: 2
-  },
-  {
-    question: "A patient with chest pain would fall under which triage level?",
-    options: ["A) Level 1", "B) Level 2", "C) Level 3", "D) Level 5"],
-    correctIndex: 1
-  },
-  {
-    question: "The Glasgow Coma Scale is used to:",
-    options: ["A) Assess breathing patterns", "B) Measure neurological function", "C) Evaluate heart rate", "D) Check oxygen levels"],
-    correctIndex: 1
-  },
-  {
-    question: "What should be done first if the patient cannot talk normally?",
-    options: ["A) Assess chest movement and air movement", "B) Check for bleeding", "C) Take a medical history", "D) Administer pain management"],
+    question: "What is the primary cause of metabolic acidosis in burn patients?",
+    options: ["a) Loss of bicarbonate ions", "b) Excess potassium", "c) Sodium retention", "d) Hyperventilation"],
     correctIndex: 0
   },
   {
-    question: "What is a sign of tension pneumothorax?",
-    options: ["A) Equal breath sounds on both sides", "B) Dull sounds on percussion", "C) Distended neck veins and shifted trachea", "D) Rapid heart rate and high blood pressure"],
-    correctIndex: 2
-  },
-  {
-    question: "What is the primary focus of circulation assessment?",
-    options: ["A) Breathing rate and oxygen levels", "B) Blood pressure and heart rate", "C) Signs of poor perfusion and bleeding control", "D) Neurological assessment"],
-    correctIndex: 2
-  },
-  {
-    question: "What is the purpose of exposure in the primary survey?",
-    options: ["A) Maintain body temperature", "B) Identify hidden injuries", "C) Perform detailed neurological exams", "D) Collect patient history"],
+    question: "What is the primary role of the subcutaneous tissue?",
+    options: ["a) To produce keratinocytes", "b) To provide a cushion between skin layers and bones", "c) To regulate body temperature", "d) To protect against UV radiation"],
     correctIndex: 1
   },
   {
-    question: "The SAMPLE format is used for:",
-    options: ["A) Diagnosing life-threatening injuries", "B) Documenting airway conditions", "C) Collecting patient and incident history", "D) Determining oxygen saturation"],
-    correctIndex: 2
-  },
-  {
-    question: "What does a Glasgow Coma Scale score of 3-8 indicate?",
-    options: ["A) Mild brain injury", "B) Moderate brain injury", "C) Severe brain injury", "D) Normal neurological function"],
-    correctIndex: 2
-  },
-  {
-    question: "What does a Glasgow Coma Scale score of 15 indicate?",
-    options: ["A) Mild brain injury", "B) Moderate brain injury", "C) Severe brain injury", "D) Normal neurological function"],
-    correctIndex: 3
-  },
-  {
-    question: "What is included in a head-to-toe assessment?",
-    options: ["A) Focused neurological tests", "B) Inspection, auscultation, and palpation", "C) Reviewing patient history", "D) Obtaining vital signs"],
+    question: "Which of the following is a sign of hypovolemic shock in burn patients?",
+    options: ["a) Increased urine output", "b) Decreased blood pressure", "c) Hyperactive bowel sounds", "d) Bradycardia"],
     correctIndex: 1
   },
   {
-    question: "In triage Level 4 (Less Urgent), a patient is likely to present with:",
-    options: ["A) Cardiac arrest", "B) Minor trauma and allergic reactions", "C) Head injuries with vomiting", "D) Severe abdominal pain"],
+    question: "What is the primary treatment for compartment syndrome in burn patients?",
+    options: ["a) Administering antacids", "b) Performing escharotomies", "c) Increasing fluid intake", "d) Applying ice packs"],
     correctIndex: 1
   },
   {
-    question: "What is the last step of the primary survey?",
-    options: ["A) Circulation", "B) Get resuscitation adjuncts", "C) Full set of vital signs", "D) Exposure"],
+    question: "Which of the following is a goal of the rehabilitation phase?",
+    options: ["a) Fluid resuscitation", "b) Preventing contractures", "c) Wound debridement", "d) Pain management"],
     correctIndex: 1
   },
   {
-    question: "How are Level 2 (Emergent) patients prioritized?",
-    options: ["A) Require immediate resuscitation", "B) Require care within 10–15 minutes", "C) Require care within 30 minutes", "D) Require care within two hours"],
-    correctIndex: 1
-  },
-  {
-    question: "What is the purpose of checking oxygen saturation during the primary survey?",
-    options: ["A) Assess airway patency", "B) Monitor peripheral perfusion", "C) Diagnose chronic conditions", "D) Examine neurological function"],
-    correctIndex: 1
-  },
-  {
-    question: "During the primary survey, what is checked under \"Exposure\"?",
-    options: ["A) Rashes, injuries, and prevention of hypothermia", "B) Oxygen saturation and ventilation", "C) Vital signs and neurological function", "D) Blood pressure and perfusion"],
+    question: "What is the primary cause of hemoconcentration in burn patients?",
+    options: ["a) Loss of plasma into extravascular space", "b) Excess fluid intake", "c) Increased urine output", "d) Hyperventilation"],
     correctIndex: 0
-  },
-  {
-    question: "In the primary survey, what is assessed under \"D\" (Disability)?",
-    options: ["A) Pupil size, glucose levels, and limb movement", "B) Oxygen saturation and cardiac rate", "C) History of the incident", "D) Inspection for hidden injuries"],
-    correctIndex: 0
-  },
-  {
-    question: "What should be done to inspect posterior surfaces in the secondary survey?",
-    options: ["A) Roll the patient carefully while maintaining c-spine stabilization", "B) Perform a detailed neurological exam", "C) Administer pain medication", "D) Assess only the limbs for injuries"],
-    correctIndex: 0
-  },
-  {
-    question: "A critically ill patient is always at low risk for life-threatening health problems.",
-    options: ["True", "False"],
-    correctIndex: 1
-  },
-  {
-    question: "In the primary survey, checking for airway patency is optional.",
-    options: ["True", "False"],
-    correctIndex: 1
-  },
-  {
-    question: "Tension pneumothorax can cause distended neck veins and a shifted trachea.",
-    options: ["True", "False"],
-    correctIndex: 0
-  },
-  {
-    question: "Hypothermia is not a concern when conducting the primary survey.",
-    options: ["True", "False"],
-    correctIndex: 1
-  },
-  {
-    question: "What is the maximum score for the Best Motor Response in the Glasgow Coma Scale?",
-    options: ["A) 4", "B) 5", "C) 6", "D) 7"],
-    correctIndex: 2
-  },
-  {
-    question: "A verbal response that is “Incomprehensible” scores how many points in the Glasgow Coma Scale?",
-    options: ["A) 5", "B) 4", "C) 2", "D) 1"],
-    correctIndex: 2
-  },
-  {
-    question: "Which Eye Opening response receives a score of 2?",
-    options: ["A) To voice", "B) To pain", "C) None", "D) Spontaneous"],
-    correctIndex: 1
   }
 ];
+
 
 
   function shuffleArray(array) {
